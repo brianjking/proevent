@@ -1,0 +1,88 @@
+.blog {
+    position: relative;
+}
+
+.blog .content_header h2 {
+    font-size: 2em;
+    margin-bottom: 15px;
+    text-decoration: none;
+    border-bottom: 1px solid #000000;
+}
+
+.blog .published {
+    position: absolute;
+    top: 40px;
+    right: 0;
+    font-size: .7em;
+    margin-bottom: 12px;
+}
+
+.blog .item:first-child .published {
+    top: 40px;
+    right: 20px;
+}
+
+.blog .content p img {
+    float: left;
+    margin: 0 15px 15px 0;
+}
+
+.items-row {
+    clear: both;
+}
+
+.item {
+    position: relative;
+    width: 48%;
+    float: left;
+    text-align: justify;
+    padding: 10px 0 10px 20px;
+}
+
+.item:first-child {
+    padding: 10px 20px 15px 0;
+}
+
+div.pagination {
+    position: relative;
+    width: 100%;
+    clear: both;
+    padding-top: 20px;
+}
+
+.pagination .counter {
+    text-align: center;
+    font-size: .8em;
+}
+
+ul.pagination {
+    list-style: none;
+    text-align: center;
+    margin-top: 15px;
+}
+
+ul.pagination li {
+    display: inline-block;
+    margin-left: 10px;
+    font-size: .9em;
+    background: url(../images/button_bg.png) repeat-x;
+    outline: 1px solid #cccccc;
+    padding: 3px 7px;
+}
+
+ul.pagination li:first-child {
+    margin-left: 0;
+}
+
+.article-info-term {
+    display: none;
+}
+
+.blog .readmore {
+    margin-top: 10px;
+    width: 75px;
+    font-size: .8em;
+    background: url(../images/button_bg.png) repeat-x;
+    outline: 1px solid #cccccc;
+    padding: 3px 7px;
+}

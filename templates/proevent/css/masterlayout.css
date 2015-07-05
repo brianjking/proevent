@@ -1,0 +1,201 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+@font-face {
+    font-family: 'RosaMarena';
+    src: url('../fonts/rosa_marena.eot'), url('../fonts/rosa_marena.ttf');
+    src: url('../fonts/rosa_marena.eot#iefix') format('embedded-opentype'), url('../fonts/rosa_marena.ttf') format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+html {
+    width: 100%;
+    height: 100%;
+    background: #f2efef;
+}
+
+body {
+    position: relative;
+    margin: 0 auto;
+    width: 100%;
+    min-height: 100%;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 8pt;
+    color: #000000;
+}
+
+#base_wrapper {
+    width: 1015px;
+    margin: 0 auto;
+}
+
+img {
+    /*outline: 7px solid #FFFFFF;*/
+    box-shadow: 0px 0px 0px 7px #ffffff;
+}
+
+h1 {
+    font-family: RosaMarena, serif;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 3.5em;
+}
+
+h2 {
+    margin-bottom: 10px;
+    font-family: RosaMarena, serif;
+    text-decoration: underline;
+    font-weight: normal;
+    font-size: 3em;
+}
+
+a, a:active, a:visited {
+    color: #333333;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+#wrapper {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 35px;
+}
+
+#accordionheader {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 150px;
+    background: url("../images/accordion_header_logo.png") no-repeat center;
+    margin-bottom: 10px;
+}
+
+#header {
+    position: relative;
+    clear: both;
+    width: 100%;
+    height: 150px;
+    background: url("../images/header_logo.png") no-repeat center;
+    margin-bottom: 10px;
+}
+
+#breadcrumbs {
+    margin: 10px 0;
+}
+
+#sidecolumn {
+    position: relative;
+    float: left;
+    width: 22%;
+    margin: 0px 35px 20px 0;
+}
+
+#sidecolumn ul {
+    width: 100%;
+}
+
+#sidecolumn ul li {
+    list-style: none;
+    border-bottom: 1px dotted #000000;
+    padding: 5px 0;
+}
+
+#sidecolumn ul li.active {
+    padding-left: 25px;
+    background: url("../images/favicon.png") no-repeat 1px;
+    font-weight: bold;
+}
+
+#sidecolumn ul li .separator {
+    font-family: RosaMarena, sans-serif;
+    font-size: 3.5em;
+}
+
+#content100 {
+    position: relative;
+    width: 100%;
+    clear: both;
+    margin: 10px 0 20px 0;
+    font-size: 1.2em;
+}
+
+#content80 {
+    position: relative;
+    width: 73%;
+    float: left;
+    margin: 10px 0 20px 0;
+    font-size: 1.2em;
+}
+
+.content ol {
+    margin: 10px 0 0 30px;
+}
+
+.content ul {
+    margin-top: 10px;
+}
+
+.content ul li {
+    list-style: none;
+    padding-left: 25px;
+    background: url("../images/favicon.png") no-repeat;
+}
+
+.content h4 {
+    margin-top: 20px;
+    padding-right: 30px;
+    font-family: RosaMarena, serif;
+    font-size: 2em;
+    font-weight: normal;
+    line-height: 1.3em;
+}
+
+.content h3 {
+    margin: 50px 0 10px 0;
+    font-family: RosaMarena, serif;
+    font-size: 2.5em;
+    line-height: 1em;
+    font-weight: normal;
+    /*text-decoration: underline;*/
+}
+
+.item-page .content_info .article-info {
+    margin-bottom: 20px;
+    font-size: .7em;
+}
+
+.item-page .content p {
+    text-align: justify;
+}
+
+.item-page .content p img {
+    margin: 0 15px 15px 0;
+}
+
+#separator {
+    position: relative;
+    width: 100%;
+    height: 1px;
+    clear: both;
+}
+
+#footer {
+    position: absolute;
+    left: auto;
+    bottom: 0;
+    width: 1015px;
+    height: 25px;
+    padding: 5px 0;
+    font-family: Verdana, Arial, sans-serif;
+    text-align: center;
+    overflow: hidden;
+    background: #dbdbdb;
+}

@@ -1,0 +1,10 @@
+#clients {
+    width: 100%;
+    text-align: center;
+    background-color: #fff;
+}
+
+#clients td {
+    width: 150px;
+    height: 150px;
+}

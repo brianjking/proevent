@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!DOCTYPE install PUBLIC "-//Joomla! 1.6//DTD template 1.0//EN"
+        "http://www.joomla.org/xml/dtd/1.6/template-install.dtd">
+<install version="1.6" type="template">
+    <name>PRoEvent</name>
+    <version>1.0</version>
+    <creationDate>June 2012</creationDate>
+    <author>Vitaliy Nishukov</author>
+    <authorEmail>vnishukov@mail.ru</authorEmail>
+    <authorUrl>http://www.vitaliynishukov.com</authorUrl>
+    <copyright>PRoEvent</copyright>
+    <description></description>
+    <languages folder="language">
+        <language tag="en-GB">en-GB/en-GB.tpl_PRoEvent.ini</language>
+        <language tag="en-GB">en-GB/en-GB.tpl_PRoEvent.sys.ini</language>
+    </languages>
+    <files>
+        <filename>index.php</filename>
+        <filename>config.php</filename>
+        <filename>params.ini</filename>
+        <filename>templateDetails.xml</filename>
+        <filename>template_thumbnail.png</filename>
+        <filename>favicon.ico</filename>
+        <folder>css/</folder>
+        <folder>html/</folder>
+        <folder>images/</folder>
+        <folder>js/</folder>
+        <folder>language/</folder>
+        <folder>fonts/</folder>
+    </files>
+    <positions>
+        <position>accordionheader</position>
+        <position>header</position>
+        <position>accordion</position>
+        <position>menu</position>
+        <position>breadcrumbs</position>
+        <position>sidecolumn</position>
+        <position>footer</position>
+    </positions>
+</install>
